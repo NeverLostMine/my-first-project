@@ -1,1 +1,30 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>带有动态阴影效果的a标签</title>
+  <style>
+    a {
+      display: inline-block;
+      padding: 15px 30px;
+      text-decoration: none;
+      color: white;
+      background-color: #007BFF;
+      border-radius: 5px;
+      transition: box-shadow 0.3s ease; /* 为阴影变化添加过渡效果，使其更平滑 */
+    }
+
+    a:hover {
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5); /* 鼠标悬停时添加阴影效果，这里设置水平和垂直偏移量为0，模糊半径为10px，扩展半径为2px，颜色为半透明黑色 */
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#">这是一个带有动态阴影效果的链接</a>
+</body>
+
+</html>

@@ -1,30 +1,40 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>带有动态阴影效果的a标签</title>
+  <title>我的作品集</title>
   <style>
-    a {
-      display: inline-block;
-      padding: 15px 30px;
-      text-decoration: none;
-      color: white;
-      background-color: #007BFF;
-      border-radius: 5px;
-      transition: box-shadow 0.3s ease; /* 为阴影变化添加过渡效果，使其更平滑 */
-    }
-
-    a:hover {
-      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5); /* 鼠标悬停时添加阴影效果，这里设置水平和垂直偏移量为0，模糊半径为10px，扩展半径为2px，颜色为半透明黑色 */
-    }
+    body{font-family:Arial;margin:0;padding:20px;background:#f6f6f6;}
+    .container{max-width:800px;margin:0 auto;background:white;padding:30px;border-radius:8px;}
+    h1{color:#333;}
+    .item{margin:20px 0;padding:15px;background:#f9f9f9;border-radius:6px;}
+    a{color:#0969da;text-decoration:none;}
   </style>
 </head>
-
 <body>
-  <a href="#">这是一个带有动态阴影效果的链接</a>
-</body>
+<div class="container">
 
+  <h1>我的作品集</h1>
+  <p>你好！我是一名正在学习的开发者，这是我的作品展示。</p >
+
+  <h2>我的作品</h2>
+
+  <div class="item">
+    <h3>作品1：个人网页</h3>
+    <p>使用 HTML + CSS 制作的第一个网页。</p >
+    <a href=" ">查看在线演示</a >
+  </div>
+
+  <div class="item">
+    <h3>作品2：GitHub 项目</h3>
+    <p>学会了代码上传、版本管理、网页发布。</p >
+    <a href="https://github.com/">查看 GitHub 地址</a >
+  </div>
+
+  <h2>联系我</h2>
+  <p>邮箱：your@email.com</p >
+  <p>GitHub：https://github.com/你的用户名</p >
+
+</div>
+</body>
 </html>
